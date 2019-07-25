@@ -1,0 +1,1206 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>一对多 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Softmax.html" />
+    
+    
+    <link rel="prev" href="README.md" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../机器学习主要术语.html">
+            
+                <a href="../机器学习主要术语.html">
+            
+                    
+                    机器学习主要术语
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../深入了解机器学习/README.md">
+            
+                <span>
+            
+                    
+                    深入了解机器学习
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../深入了解机器学习/线性回归.html">
+            
+                <a href="../深入了解机器学习/线性回归.html">
+            
+                    
+                    线性回归
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../深入了解机器学习/训练与损失.html">
+            
+                <a href="../深入了解机器学习/训练与损失.html">
+            
+                    
+                    训练与损失
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../降低损失/README.md">
+            
+                <span>
+            
+                    
+                    降低损失
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../降低损失/迭代方法.html">
+            
+                <a href="../降低损失/迭代方法.html">
+            
+                    
+                    迭代方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../降低损失/梯度下降法.html">
+            
+                <a href="../降低损失/梯度下降法.html">
+            
+                    
+                    梯度下降法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../降低损失/学习速率.html">
+            
+                <a href="../降低损失/学习速率.html">
+            
+                    
+                    学习速率
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../降低损失/优化学习速率.html">
+            
+                <a href="../降低损失/优化学习速率.html">
+            
+                    
+                    优化学习速率
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../降低损失/随机梯度下降法.html">
+            
+                <a href="../降低损失/随机梯度下降法.html">
+            
+                    
+                    随机梯度下降法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../降低损失/Playground练习-学习速率和收敛.html">
+            
+                <a href="../降低损失/Playground练习-学习速率和收敛.html">
+            
+                    
+                    Playground练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../降低损失/检查您的理解情况.html">
+            
+                <a href="../降低损失/检查您的理解情况.html">
+            
+                    
+                    检查理解情况
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../使用TF的基本步骤/README.md">
+            
+                <span>
+            
+                    
+                    使用TF的基本步骤
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../使用TF的基本步骤/工具包.html">
+            
+                <a href="../使用TF的基本步骤/工具包.html">
+            
+                    
+                    工具包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../使用TF的基本步骤/编程练习.html">
+            
+                <a href="../使用TF的基本步骤/编程练习.html">
+            
+                    
+                    编程练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../泛化/README.md">
+            
+                <span>
+            
+                    
+                    泛化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../泛化/过拟合的风险.html">
+            
+                <a href="../泛化/过拟合的风险.html">
+            
+                    
+                    过拟合的风险
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../训练集和测试集/README.md">
+            
+                <span>
+            
+                    
+                    训练集和测试集
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../训练集和测试集/拆分数据.html">
+            
+                <a href="../训练集和测试集/拆分数据.html">
+            
+                    
+                    拆分数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../训练集和测试集/Playground练习.html">
+            
+                <a href="../训练集和测试集/Playground练习.html">
+            
+                    
+                    Playground练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../验证/README.md">
+            
+                <span>
+            
+                    
+                    验证
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../验证/检查您的直觉.html">
+            
+                <a href="../验证/检查您的直觉.html">
+            
+                    
+                    检查您的直觉
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../验证/另一个划分.html">
+            
+                <a href="../验证/另一个划分.html">
+            
+                    
+                    另一个划分
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../验证/编程练习.html">
+            
+                <a href="../验证/编程练习.html">
+            
+                    
+                    编程练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../表示法/README.md">
+            
+                <span>
+            
+                    
+                    表示法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../表示法/特征工程.html">
+            
+                <a href="../表示法/特征工程.html">
+            
+                    
+                    特征工程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../表示法/良好特征的特点.html">
+            
+                <a href="../表示法/良好特征的特点.html">
+            
+                    
+                    良好特征的特点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../表示法/数据清理.html">
+            
+                <a href="../表示法/数据清理.html">
+            
+                    
+                    数据清理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../表示法/编程练习.html">
+            
+                <a href="../表示法/编程练习.html">
+            
+                    
+                    编程练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../特征组合/README.md">
+            
+                <span>
+            
+                    
+                    特征组合
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../特征组合/对非线性规律进行编码.html">
+            
+                <a href="../特征组合/对非线性规律进行编码.html">
+            
+                    
+                    对非线性规律进行编码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../特征组合/组合独热矢量.html">
+            
+                <a href="../特征组合/组合独热矢量.html">
+            
+                    
+                    组合独热矢量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../特征组合/Playground练习.html">
+            
+                <a href="../特征组合/Playground练习.html">
+            
+                    
+                    Playground练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../特征组合/编程练习.html">
+            
+                <a href="../特征组合/编程练习.html">
+            
+                    
+                    编程练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="../特征组合/检查您的理解情况.html">
+            
+                <a href="../特征组合/检查您的理解情况.html">
+            
+                    
+                    检查您的理解情况
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../正则化：简单性/README.md">
+            
+                <span>
+            
+                    
+                    正则化：简单性
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../正则化：简单性/Playground练习1.html">
+            
+                <a href="../正则化：简单性/Playground练习1.html">
+            
+                    
+                    Playground练习1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../正则化：简单性/L2正则化.html">
+            
+                <a href="../正则化：简单性/L2正则化.html">
+            
+                    
+                    L2正则化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../正则化：简单性/Lambda.html">
+            
+                <a href="../正则化：简单性/Lambda.html">
+            
+                    
+                    Lambda
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="../正则化：简单性/Playground练习2.html">
+            
+                <a href="../正则化：简单性/Playground练习2.html">
+            
+                    
+                    Playground练习2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.5" data-path="../正则化：简单性/检查您的理解情况.html">
+            
+                <a href="../正则化：简单性/检查您的理解情况.html">
+            
+                    
+                    检查您的理解情况
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../逻辑回归/README.md">
+            
+                <span>
+            
+                    
+                    逻辑回归
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../逻辑回归/计算概率.html">
+            
+                <a href="../逻辑回归/计算概率.html">
+            
+                    
+                    计算概率
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../逻辑回归/模型训练.html">
+            
+                <a href="../逻辑回归/模型训练.html">
+            
+                    
+                    模型训练
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../分类/README.md">
+            
+                <span>
+            
+                    
+                    分类
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../分类/阈值.html">
+            
+                <a href="../分类/阈值.html">
+            
+                    
+                    阈值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="../分类/真与假.html">
+            
+                <a href="../分类/真与假.html">
+            
+                    
+                    真与假
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="../分类/准确率.html">
+            
+                <a href="../分类/准确率.html">
+            
+                    
+                    准确率
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.4" data-path="../分类/精确率和召回率.html">
+            
+                <a href="../分类/精确率和召回率.html">
+            
+                    
+                    精确率和召回率
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.5" data-path="../分类/检查您的理解情况.html">
+            
+                <a href="../分类/检查您的理解情况.html">
+            
+                    
+                    检查您的理解情况
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.6" data-path="../分类/编程练习.html">
+            
+                <a href="../分类/编程练习.html">
+            
+                    
+                    编程练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../正则化：稀疏性/README.md">
+            
+                <span>
+            
+                    
+                    正则化：稀疏性
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../正则化：稀疏性/L1正则化.html">
+            
+                <a href="../正则化：稀疏性/L1正则化.html">
+            
+                    
+                    L1正则化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="../正则化：稀疏性/Playground练习.html">
+            
+                <a href="../正则化：稀疏性/Playground练习.html">
+            
+                    
+                    Playground练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3" data-path="../正则化：稀疏性/编程练习.html">
+            
+                <a href="../正则化：稀疏性/编程练习.html">
+            
+                    
+                    编程练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.4" data-path="../正则化：稀疏性/检查您的理解情况.html">
+            
+                <a href="../正则化：稀疏性/检查您的理解情况.html">
+            
+                    
+                    检查您的理解情况
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../神经网络简介/README.md">
+            
+                <span>
+            
+                    
+                    神经网络简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../神经网络简介/剖析.html">
+            
+                <a href="../神经网络简介/剖析.html">
+            
+                    
+                    剖析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.2" data-path="../神经网络简介/Playground练习.html">
+            
+                <a href="../神经网络简介/Playground练习.html">
+            
+                    
+                    Playground练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.3" data-path="../神经网络简介/编程练习.html">
+            
+                <a href="../神经网络简介/编程练习.html">
+            
+                    
+                    编程练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../训练神经网络/README.md">
+            
+                <span>
+            
+                    
+                    训练神经网络
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" data-path="../训练神经网络/最佳做法.html">
+            
+                <a href="../训练神经网络/最佳做法.html">
+            
+                    
+                    最佳做法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.2" data-path="../训练神经网络/编程练习.html">
+            
+                <a href="../训练神经网络/编程练习.html">
+            
+                    
+                    编程练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="README.md">
+            
+                <span>
+            
+                    
+                    多类别神经网络
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.17.1" data-path="一对多.html">
+            
+                <a href="一对多.html">
+            
+                    
+                    一对多
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.2" data-path="Softmax.html">
+            
+                <a href="Softmax.html">
+            
+                    
+                    Softmax
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.3" data-path="编程练习.html">
+            
+                <a href="编程练习.html">
+            
+                    
+                    编程练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >一对多</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x591A;&#x7C7B;&#x522B;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;-multi-class-neural-networks&#xFF1A;&#x4E00;&#x5BF9;&#x591A;">&#x591A;&#x7C7B;&#x522B;&#x795E;&#x7ECF;&#x7F51;&#x7EDC; (Multi-Class Neural Networks)&#xFF1A;&#x4E00;&#x5BF9;&#x591A;</h1>
+<p><strong>&#x4E00;&#x5BF9;&#x591A;</strong>&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x79CD;&#x5229;&#x7528;&#x4E8C;&#x5143;&#x5206;&#x7C7B;&#x7684;&#x65B9;&#x6CD5;&#x3002;&#x9274;&#x4E8E;&#x4E00;&#x4E2A;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x4F1A;&#x6709; N &#x4E2A;&#x53EF;&#x884C;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#xFF0C;&#x4E00;&#x5BF9;&#x591A;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x5305;&#x62EC; N &#x4E2A;&#x5355;&#x72EC;&#x7684;&#x4E8C;&#x5143;&#x5206;&#x7C7B;&#x5668;&#xFF0C;&#x6BCF;&#x4E2A;&#x53EF;&#x80FD;&#x7684;&#x7ED3;&#x679C;&#x5BF9;&#x5E94;&#x4E00;&#x4E2A;&#x4E8C;&#x5143;&#x5206;&#x7C7B;&#x5668;&#x3002;&#x5728;&#x8BAD;&#x7EC3;&#x671F;&#x95F4;&#xFF0C;&#x6A21;&#x578B;&#x4F1A;&#x8BAD;&#x7EC3;&#x4E00;&#x7CFB;&#x5217;&#x4E8C;&#x5143;&#x5206;&#x7C7B;&#x5668;&#xFF0C;&#x4F7F;&#x6BCF;&#x4E2A;&#x5206;&#x7C7B;&#x5668;&#x90FD;&#x80FD;&#x56DE;&#x7B54;&#x5355;&#x72EC;&#x7684;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x3002;&#x4EE5;&#x4E00;&#x5F20;&#x72D7;&#x72D7;&#x7684;&#x7167;&#x7247;&#x4E3A;&#x4F8B;&#xFF0C;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x8BAD;&#x7EC3;&#x4E94;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x8BC6;&#x522B;&#x5668;&#xFF0C;&#x5176;&#x4E2D;&#x56DB;&#x4E2A;&#x5C06;&#x56FE;&#x7247;&#x770B;&#x4F5C;&#x8D1F;&#x6837;&#x672C;&#xFF08;&#x4E0D;&#x662F;&#x72D7;&#x72D7;&#xFF09;&#xFF0C;&#x4E00;&#x4E2A;&#x5C06;&#x56FE;&#x7247;&#x770B;&#x4F5C;&#x6B63;&#x6837;&#x672C;&#xFF08;&#x662F;&#x72D7;&#x72D7;&#xFF09;&#x3002;&#x5373;&#xFF1A;</p>
+<ol>
+<li>&#x8FD9;&#x662F;&#x4E00;&#x5F20;&#x82F9;&#x679C;&#x7684;&#x56FE;&#x7247;&#x5417;&#xFF1F;&#x4E0D;&#x662F;&#x3002;</li>
+<li>&#x8FD9;&#x662F;&#x4E00;&#x5F20;&#x718A;&#x7684;&#x56FE;&#x7247;&#x5417;&#xFF1F;&#x4E0D;&#x662F;&#x3002;</li>
+<li>&#x8FD9;&#x662F;&#x4E00;&#x5F20;&#x7CD6;&#x679C;&#x7684;&#x56FE;&#x7247;&#x5417;&#xFF1F;&#x4E0D;&#x662F;&#x3002;</li>
+<li>&#x8FD9;&#x662F;&#x4E00;&#x5F20;&#x72D7;&#x72D7;&#x7684;&#x56FE;&#x7247;&#x5417;&#xFF1F;&#x662F;&#x3002;</li>
+<li>&#x8FD9;&#x662F;&#x4E00;&#x5F20;&#x9E21;&#x86CB;&#x7684;&#x56FE;&#x7247;&#x5417;&#xFF1F;&#x4E0D;&#x662F;&#x3002;</li>
+</ol>
+<p>&#x5F53;&#x7C7B;&#x522B;&#x603B;&#x6570;&#x8F83;&#x5C11;&#x65F6;&#xFF0C;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#x6BD4;&#x8F83;&#x5408;&#x7406;&#xFF0C;&#x4F46;&#x968F;&#x7740;&#x7C7B;&#x522B;&#x6570;&#x91CF;&#x7684;&#x589E;&#x52A0;&#xFF0C;&#x5176;&#x6548;&#x7387;&#x4F1A;&#x53D8;&#x5F97;&#x8D8A;&#x6765;&#x8D8A;&#x4F4E;&#x4E0B;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x501F;&#x52A9;&#x6DF1;&#x5EA6;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#xFF08;&#x5728;&#x8BE5;&#x7F51;&#x7EDC;&#x4E2D;&#xFF0C;&#x6BCF;&#x4E2A;&#x8F93;&#x51FA;&#x8282;&#x70B9;&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x7C7B;&#x522B;&#xFF09;&#x521B;&#x5EFA;&#x660E;&#x663E;&#x66F4;&#x52A0;&#x9AD8;&#x6548;&#x7684;&#x4E00;&#x5BF9;&#x591A;&#x6A21;&#x578B;&#x3002;&#x4E0B;&#x56FE;&#x5C55;&#x793A;&#x4E86;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<p><img src="../image/OneVsAll.svg" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="README.md" class="navigation navigation-prev " aria-label="Previous page: 多类别神经网络">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Softmax.html" class="navigation navigation-next " aria-label="Next page: Softmax">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"一对多","level":"1.17.1","depth":2,"next":{"title":"Softmax","level":"1.17.2","depth":2,"path":"多类别神经网络/Softmax.md","ref":"多类别神经网络/Softmax.md","articles":[]},"previous":{"title":"多类别神经网络","level":"1.17","depth":1,"path":"多类别神经网络/README.md","ref":"多类别神经网络/README.md","articles":[{"title":"一对多","level":"1.17.1","depth":2,"path":"多类别神经网络/一对多.md","ref":"多类别神经网络/一对多.md","articles":[]},{"title":"Softmax","level":"1.17.2","depth":2,"path":"多类别神经网络/Softmax.md","ref":"多类别神经网络/Softmax.md","articles":[]},{"title":"编程练习","level":"1.17.3","depth":2,"path":"多类别神经网络/编程练习.md","ref":"多类别神经网络/编程练习.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"多类别神经网络/一对多.md","mtime":"2018-12-24T01:44:56.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-27T11:42:13.991Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
